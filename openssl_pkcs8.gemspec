@@ -5,10 +5,10 @@
 
 Gem::Specification.new do |s|
   s.name = "openssl_pkcs8"
-  s.version = "0.1.2"
+  s.version = "0.1.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Scott Tadman"]
+  s.authors = ["Scott Tadman", "Mike Pollitt"]
   s.date = "2012-01-20"
   s.description = "Adds PKCS8 key format support to OpenSSL::PKey::RSA"
   s.email = "github@tadman.ca"

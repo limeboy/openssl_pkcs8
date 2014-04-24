@@ -14,6 +14,8 @@
 #include <openssl/conf.h>
 #include <openssl/conf_api.h>
 
+#include "dummy_headers.h"
+
 VALUE mOSSL;
 VALUE mPKey;
 VALUE cRSA;
